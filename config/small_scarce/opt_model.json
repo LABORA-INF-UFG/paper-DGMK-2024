@@ -1,0 +1,19 @@
+{
+    "Optimal_3600":{
+        "n_rbgs": 16,
+        "rbg_size": 32,
+        "rb_bandwidth": 180000,
+        "rbg_grouping_method": "big_block",
+        "n_ttis": 10,
+        "tti_length": 1e-3,
+        "slice_drift_aggregation_method": "average",
+        "slice_users":{
+            "nongbr":1,
+            "gbr":1,
+            "dcgbr":1
+        },
+        "minimize_resources": true,
+        "metrics_window": 10,
+        "time_limit": 3600
+    }
+}

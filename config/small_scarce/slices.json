@@ -1,0 +1,63 @@
+{
+    "nongbr":{
+        "id": 0,
+        "type": "Non-GBR",
+        "requirements":{
+            "long_term_capacity": 150e6,
+            "latency": 2
+        },
+        "requirement_weights":{
+            "long_term_capacity": 0.5,
+            "latency": 0.5
+        },
+        "user_config": {
+            "max_lat": 100,
+            "buffer_size": 262144,
+            "pkt_size": 8192,
+            "flow_type": "poisson",
+            "flow_throughput": 150e6
+        },
+        "weight": 0.333,
+        "intra_scheduler": "proportional_fair"
+    },
+    "gbr":{
+        "id": 1,
+        "type": "GBR",
+        "requirements":{
+            "latency": 43,
+            "capacity": 36e6
+        },
+        "requirement_weights":{
+            "latency": 0.5,
+            "capacity": 0.5
+        },
+        "user_config": {
+            "max_lat": 200,
+            "buffer_size": 262144,
+            "pkt_size": 2046,
+            "flow_type":"poisson",
+            "flow_throughput": 36e6
+        },
+        "weight": 0.333,
+        "intra_scheduler": "proportional_fair"
+    },
+    "dcgbr":{
+        "id": 2,
+        "type":"DC-GBR",
+        "requirements":{
+            "capacity": 30e6
+        },
+        "requirement_weights":{
+            "capacity": 1.0
+        },
+        "user_config": {
+            "max_lat":3,
+            "buffer_size": 262144,
+            "pkt_size": 1024,
+            "flow_type": "poisson",
+            "flow_throughput": 30e6
+        },
+        "weight": 0.333,
+        "intra_scheduler": "proportional_fair"
+    }
+}

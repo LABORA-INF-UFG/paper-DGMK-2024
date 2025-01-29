@@ -1,0 +1,68 @@
+{
+    "Optimal":{
+        "scheduler": {
+            "name": "optimal",
+            "time_limit": 3600
+        },
+        "numerology": 0,
+        "n_rbgs": 16,
+        "n_ttis": 10,
+        "rbg_size": 32,
+        "slice_users":{
+            "nongbr":1,
+            "gbr":1,
+            "dcgbr":1
+        },
+        "step_window": 10,
+        "rbg_grouping_method": "big_block"
+    },
+    "DREAMIN":{
+        "scheduler": {
+            "name": "step_drift_heuristic",
+            "window": 10
+        },
+        "numerology": 0,
+        "n_rbgs": 16,
+        "n_ttis": 10,
+        "rbg_size": 32,
+        "slice_users":{
+            "nongbr":1,
+            "gbr":1,
+            "dcgbr":1
+        },
+        "step_window": 10,
+        "rbg_grouping_method": "big_block"
+    },
+    "RS":{
+        "scheduler": {
+            "name": "radiosaber"
+        },
+        "numerology": 0,
+        "n_rbgs": 16,
+        "n_ttis": 10,
+        "rbg_size": 32,
+        "slice_users":{
+            "nongbr":1,
+            "gbr":1,
+            "dcgbr":1
+        },
+        "step_window": 10,
+        "rbg_grouping_method": "big_block"
+    },
+    "WRR":{
+        "scheduler": {
+            "name": "weighted_round_robin"
+        },
+        "numerology": 0,
+        "n_rbgs": 16,
+        "n_ttis": 10,
+        "rbg_size": 32,
+        "slice_users":{
+            "nongbr":1,
+            "gbr":1,
+            "dcgbr":1
+        },
+        "step_window": 10,
+        "rbg_grouping_method": "big_block"
+    }
+}

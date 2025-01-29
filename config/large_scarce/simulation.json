@@ -1,0 +1,51 @@
+{
+    "DREAMIN":{
+        "scheduler": {
+            "name": "step_drift_heuristic",
+            "window": 10
+        },
+        "numerology": 0,
+        "n_rbgs": 128,
+        "n_ttis": 475,
+        "rbg_size": 4,
+        "slice_users":{
+            "nongbr":3,
+            "gbr":3,
+            "dcgbr":3
+        },
+        "step_window": 10,
+        "rbg_grouping_method": "big_block"
+    },
+    "RS":{
+        "scheduler": {
+            "name": "radiosaber"
+        },
+        "numerology": 0,
+        "n_rbgs": 128,
+        "n_ttis": 475,
+        "rbg_size": 4,
+        "slice_users":{
+            "nongbr":3,
+            "gbr":3,
+            "dcgbr":3
+        },
+        "step_window": 10,
+        "rbg_grouping_method": "big_block"
+    },
+    "WRR":{
+        "scheduler": {
+            "name": "weighted_round_robin"
+        },
+        "numerology": 0,
+        "n_rbgs": 128,
+        "n_ttis": 475,
+        "rbg_size": 4,
+        "slice_users":{
+            "nongbr":3,
+            "gbr":3,
+            "dcgbr":3
+        },
+        "step_window": 10,
+        "rbg_grouping_method": "big_block"
+    }
+}
