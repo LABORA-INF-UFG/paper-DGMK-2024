@@ -44,7 +44,7 @@ All experiments were executed in a Thinkpad E14 gen 4 (40 GB RAM and Intel i7-12
 As all code is written in Python, this is the only language you need to have installed.
 You'll also need IBM's Contraint Programming Optimizer to execute the optimization model.
 To build the same environment we used in our evaluations, install:
-- Python 3.8.10
+- Python 3.8.10 with pip 20.0.2
 - IBM ILOG CPLEX Optimization Studio 22.1.0 
 
 **Python dependencies:**
