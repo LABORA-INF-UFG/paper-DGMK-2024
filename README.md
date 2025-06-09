@@ -2,6 +2,8 @@
 
 [Paper (no link until publication)](LINK_TO_THE_PAPER)
 
+[ICC presentation slides](https://github.com/LABORA-INF-UFG/paper-DGMK-2024/blob/main/icc_presentation.pdf)
+
 The Drift and Resource Allocation Minimization (DREAMIN) scheduler is a channel-aware inter-slice radio resource scheduler oriented to efficiently reducing SLA drift and resource usage. This repository has all the code we implemented to execute the experiments we show in our paper. It contains:
 - `simulation/` - our simulation of a downlink 5G scenario
 - `simulation/intersched.py` - implementations of inter-slice scheduling algorithms, including DREAMIN, [RadioSaber](https://www.usenix.org/conference/nsdi23/presentation/chen-yongzhou), and a Weighted Round-Robin
