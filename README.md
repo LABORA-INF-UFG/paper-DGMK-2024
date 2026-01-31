@@ -1,6 +1,6 @@
 # DREAMIN: Channel-Aware Inter-Slices Radio Resource Scheduling for Efficient SLA Assurance
 
-[Paper (no link until publication)](LINK_TO_THE_PAPER)
+[Paper](https://ieeexplore.ieee.org/document/11162061)
 
 [ICC presentation slides](https://github.com/LABORA-INF-UFG/paper-DGMK-2024/blob/main/icc_presentation.pdf)
 
@@ -18,22 +18,20 @@ The Drift and Resource Allocation Minimization (DREAMIN) scheduler is a channel-
 
 # How to cite us
 
-Use the bibtex below (fields with ? will be filled after publication):
+Use the bibtex below:
 
 ```bibtex
 @inproceedings{icc_dgmk_2024,
-        author = {Daniel Campos and Gabriel M. Almeida and Mohammad J. Abdel-Rahman and Kleber V. Cardoso},
+        author={Campos, Daniel and Almeida, Gabriel M and Abdel-Rahman, Mohammad J and Cardoso, Kleber V},
         title = {DREAMIN: Channel-Aware Inter-Slices Radio Resource Scheduling for Efficient SLA Assurance},
         booktitle = {ICC 2025-IEEE International Conference on Communications},
         location = {Montreal, Canada},
         year = {2025},
         keywords = {Service level agreement, network slicing, resource block, radio resource scheduling, energy efficiency},
         organization={IEEE},
-        issn = {?},
-        pages = {?},
-        doi = {?},
-        url = {?}
-        
+        pages = {2126--2131},
+        keywords={Measurement;Constraint handling;Network slicing;Quality of service;Minimization;Energy efficiency;Resource management;Indexes;Service level agreements;Service level agreement;network slicing;resource block;radio resource scheduling;energy efficiency},
+        doi={10.1109/ICC52391.2025.11162061}
 }
 ```
 
@@ -44,7 +42,7 @@ All experiments were executed in a Thinkpad E14 gen 4 (40 GB RAM and Intel i7-12
 ## Setup the environment
 
 As all code is written in Python, this is the only language you need to have installed.
-You'll also need IBM's Contraint Programming Optimizer to execute the optimization model.
+You'll also need IBM's Constraint Programming Optimizer to execute the optimization model.
 To build the same environment we used in our evaluations, install:
 - Python 3.8.10 with pip 20.0.2
 - IBM ILOG CPLEX Optimization Studio 22.1.0 
