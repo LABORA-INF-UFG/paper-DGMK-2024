@@ -135,4 +135,4 @@ Note that you need to execute the simulations of a scenario before generating it
 
 # Contact
 
-If you have any questions, please email Daniel "Dante" Campos: danielcampossilva@inf.ufg.br
+If you have any questions, please email Daniel "Dante" Campos: dcamposfsa@vt.edu
